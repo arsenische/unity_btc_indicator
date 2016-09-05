@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-# This script adds bitcoin price indicator to the unity tray (and refreshes it every 10 seconds) thanks to:
+# This script adds bitcoin price indicator to the Unity tray (and refreshes it every 10 seconds) thanks to:
 #   https://bitcoinaverage.com
 #   http://candidtim.github.io/appindicator/2014/09/13/ubuntu-appindicator-step-by-step.html
 #   https://jbernard.io/2010/04/16/periodic-timers-in-pygtk.html
