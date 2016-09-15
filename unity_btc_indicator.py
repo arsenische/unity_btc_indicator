@@ -41,7 +41,8 @@ def build_menu():
 
 def get_btc_rate():
 
-  url = "https://api.bitcoinaverage.com/ticker/global/USD/"
+  import uuid
+  url = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCUSD?r="+str(uuid.uuid4())
   print "Requesting BTC price from: " + url
 
   try:
